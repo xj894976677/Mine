@@ -1,0 +1,92 @@
+# Node 依赖
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# 调试
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# 本地环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Android
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursorrules
+
+# TypeScript
+*.tsbuildinfo
+
+# 测试
+coverage/
+
+# @generated expo-cli sync
+# 以下内容由expo-cli生成
+# @end expo-cli
